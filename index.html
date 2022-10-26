@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/site-icon.png">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body>
+<header id="myHeader">
+  <div class="container">
+    <div class="wrapper">
+      <div class="separator">
+            <div class="logo-brand">
+              <a href="/">{BS}</a>
+            </div>
+            <div class="navigation">
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+               
+              </ul>
+            </div>
+
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="/">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+              </div>
+              
+              <button class="openbtn" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></button>  
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container-banner" id="about">
+  <div class="wrapper">
+    <div class="banner-layout">
+          <div class="intro">
+              <h1><span>👋</span><span class="prefix-text">Hello, I am</span> Shankar BS</h1>
+              <p><strong>Web Developer</strong></p>
+              <em>I have 3 years of experience in Web Development, <br/>provided services over 100+ Websites.</em>
+          </div>
+          <div class="profile-pic">
+              <img src="images/anime-placeholder.png" style="width:300px;" alt="profile" />
+          </div>
+          <div class="social-icons">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/shankar-b-47bb98b5/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/BShnkr" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/shaneymar" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+    </div>
+  </div>
+</div>
+      
+<div class="container-banner" id="skills">
+      <div class="wrapper">
+        <div class="skills">
+          <div class="title">
+              <h2>My Skills</h2>
+          </div>
+          <div class="separator">
+            <div>
+              <img src="images/html.png" alt="html" />
+            </div>
+            <div>
+              <img src="images/css.png" alt="css" />
+            </div>
+            <div>
+              <img src="images/tailwind.png" alt="tailwindcss" />
+            </div>
+            <div>
+              <img src="images/javascript.png" alt="js" />
+            </div>
+            <div>
+              <img src="images/react.png" alt="react" />
+            </div>
+            <div>
+              <img src="images/WordPress_blue_logo.svg.png" alt="react" />
+            </div>
+            <div>
+                <img src="images/git-icon.png" alt="react" />
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container-banner" id="projects">
+  <div class="wrapper">
+    <div class="projects">
+      <div class="title">
+          <h2>My Projects</h2>
+      </div>
+      <div class="separator-projects">
+        <div class="project">
+          <img src="images/pro-1.png"  alt="Personal Portfolio" />
+          
+          <details>
+            <summary>Description</summary>
+            <p>Personal Portfolio Website using HTML, CSS and javascript</p>
+            <div class="icons">
+            <li><a href="#"><i class="fa fa-github-square" aria-hidden="true" title="View Code"></i></a></li>
+            <li><a href="#"><i class="fa fa-eye" aria-hidden="true" title="View Site"></i></a></li>
+            </div>
+          </details>
+        </div>
+        <div class="project">
+          <img src="images/pro-2.png"  alt="Node js Authentication" />
+          <details>
+            <summary>Description</summary>
+            <p>Node Js Login Authentication connected to MySQL database [CRUD operations]</p>
+            <div class="icons">
+              <li><a href="https://github.com/shaneymar/NodeJs-project.git" target="_blank"><i class="fa fa-github-square" aria-hidden="true" title="View Code"></i></a></li>
+              <li><a href="#"><i class="fa fa-eye" aria-hidden="true" title="View Site"></i></a></li>
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="separator-projects">
+        <div class="project"> 
+          <img src="images/pro-3.png"  alt="Portfolio using React + tailwind" />
+          <details>
+            <summary>Description</summary>
+            <p>Portfolio Website using React and Tailwind CSS with DarkMode feature</p>
+            <div class="icons">
+              <li><a href="#"><i class="fa fa-github-square" aria-hidden="true" title="View Code"></i></a></li>
+              <li><a href="#"><i class="fa fa-eye" aria-hidden="true" title="View Site"></i></a></li>
+            </div>
+          </details>
+        </div>
+        <div class="project">
+          <img src="images/pro-4.png"  alt="Login with Google Authentication" />
+          <details>
+            <summary>Description</summary>
+            <p>Login Authentication using Google</p>
+            <div class="icons">
+              <li><a href="#"><i class="fa fa-github-square" aria-hidden="true" title="View Code"></i></a></li>
+              <li><a href="#"><i class="fa fa-eye" aria-hidden="true" title="View Site"></i></a></li>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container-banner">
+    <div class="wrapper">
+      <div class="copyrights">
+        <p>Made with <span style="color:red;">&#10084;</span> by Shankar BS</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
